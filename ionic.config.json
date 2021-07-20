@@ -1,0 +1,7 @@
+{
+  "name": "render-atl",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
