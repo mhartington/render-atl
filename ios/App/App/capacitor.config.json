@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "render-atl",
+	"webDir": "build",
+	"bundledWebRuntime": false
+}
