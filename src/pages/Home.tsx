@@ -53,7 +53,11 @@ const Home: React.FC = () => {
     });
   };
   useIonViewDidEnter(async () => {
-    await Geolocation.requestPermissions();
+    try {
+      await Geolocation.requestPermissions();
+    } catch (e) {
+      console.log('error: ', e);
+    }
     setIsLoaded(true);
   });
 
